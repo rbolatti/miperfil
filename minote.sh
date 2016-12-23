@@ -1,11 +1,13 @@
 #!/bin/bash
-# -*- ENCODING: UTF-8 -*-
-echo 'alias actu='apt-get update && apt-get upgrade'>>/home/iksop/.bashrc'
-echo'alias insta='apt-get install'>>/home/iksop/.bashrc'
-echo 'alias muestra='hydra -L usuarios.txt -P password.txt -vV'>>/home/iksop/.bashrc'rueba
-echo'alias prueba='echo 'prueba''>>/home/iksop/.bashrc'
+# -*- ENCODING: UTF-8 -*-a
+apt-get update && apt-get upgrade
+echo 'alias actu='apt-get update && apt-get upgrade'>>~/.bash_aliases'
+echo'alias insta='apt-get install'>>~/.bash_aliases'
+echo 'alias muestra='hydra -L usuarios.txt -P password.txt -vV'>>~/.bash_aliases'
 apt-get install hydra
 apt-get install nmap 
 apt-get install vim
 apt-get install sqlmap
+apt-get install guake
+apt-get install 
 exit
