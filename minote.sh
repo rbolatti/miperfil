@@ -1,6 +1,6 @@
 #!/bin/bash
 # -*- ENCODING: UTF-8 -*-a
-sed -i "s/deb cdrom:*/#deb cdrom:*/g" /etc/apt/sources.list
+sed -i "s/deb cdrom:*/#deb cdrom:/g" /etc/apt/sources.list
 apt-get update && apt-get upgrade
 cat alias > ~/.bash_aliases
 source ~/.bash_aliases
