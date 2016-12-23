@@ -1,4 +1,3 @@
 alias actu='apt-get update && apt-get upgrade'
 alias insta='apt-get install'
 alias muestra='hydra -L usuarios.txt -P password.txt -vV'
-alias sshik='ssh iksop@'
