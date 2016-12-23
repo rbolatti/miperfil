@@ -9,4 +9,6 @@ apt-get install vim
 apt-get install sqlmap
 apt-get install guake
 apt-get install 
+mkdir /home/programas
+wget -P/home/programas http://download2.mikrotik.com/routeros/winbox/3.7/winbox.exe
 exit
