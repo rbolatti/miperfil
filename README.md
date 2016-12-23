@@ -1,2 +1,0 @@
-# miperfil
-alias agregados 
