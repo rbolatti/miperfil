@@ -1,0 +1,3 @@
+alias actu='apt-get update && apt-get upgrade'>>~/.bash_aliases
+alias insta='apt-get install'>>~/.bash_aliases
+alias muestra='hydra -L usuarios.txt -P password.txt -vV'>>~/.bash_aliases
