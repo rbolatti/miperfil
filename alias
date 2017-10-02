@@ -1,4 +1,8 @@
 alias actu='apt-get update && apt-get upgrade'
 alias insta='apt-get install'
 alias muestra='hydra -L usuarios.txt -P password.txt -vV'
-alias ma='echo $var >> machete'
+alias ma='echo $var >> ~/machete.txt'
+alias mipcup='cat ~/machete.txt > ~/mipc/machete.txt ; cat ~/.bash_aliases > ~/mipc/alias ;cat ~/password.txt > ~/mipc/password.txt ; cat ~/usuarios.txt > ~/mipc/usuarios.txt'
+alias ss='ssh  -l iksop  '
+alias actufl='ansible-playbook -i flowdat2-ansible-inventory.ini playbooks/flowdat2-update-src.yml   -vvvv -uiksop'
+
