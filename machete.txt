@@ -1,0 +1,120 @@
+**copiar o enviar archivos remotamente 
+scp /ruta/al/archivo-origen usuario@ordenador:/ruta/al/directorio-destino/
+
+*configurar sshserver
+/etc/ssh/sshd_config
+
+*verificar consultas
+snmpwalk -v 2c -c public 10.40.142.68
+
+realizar un for 
+for ip in $(cat lista.txt); do snmpwalk -v 2c -c public $ip system; done
+
+
+
+app_dev.php 
+frontend_dev.php 
+
+configurar bind dns  
+/etc/bind 
+eliminar procesos Zombies 
+kill $(ps -A -ostat,ppid | awk '/[zZ]/{print $2}') 
+
+Uprgrade de casa 3200 
+copy tftp 190.93.223.179 ccsi.gz.rel7.1.4.0_build49ba flash2 
+
+#dd 
+dd if=Pisi-Linux-Beta-Sueno-x86_64.iso of=/dev/sdb bs=4M
+
+
+--start-at-task="Set executables files"
+
+/Provisioning/dhcp_subnets_report.php
+
+tsdb/q/index.php?m=cm_download&start=now&end=1d-ago&format=json
+
+/var/flowdat/mongotsdb# ln -sf $(pwd)/cfg/apache-debian8.conf /etc/apache2/conf-enabled/
+
+
+
+snmpwalk  -cpublic -v2c 10.43.6.244 1.3.6.1.4.1.4413.2.2.2.1.5.4.1.14.1.3.32
+snmpwalk  -cpublic -v2c 10.43.6.244 1.3.6.1.4.1.4413.2.2.2.1.5.4.2.4.1.2.32
+
+
+
+SMC
+snmpwalk  -cpublic -v2c 10.43.4.197 1.3.6.1.4.1.202.80.1.1.18.9.1.5.1
+
+snmpwalk  -cpublic -v2c 10.43.10.146 1.3.6.1.4.1.202.80.1.1.18.9.1.5.1
+
+
+
+
+Recuperar pendrive 
+Ver usb que corresponda
+sudo fdisk -l
+
+Recuperar archivos 
+foremost -t all -i /dev/sdb -o /carpeta donde volcar los archivos
+**copiar o enviar archivos remotamente 
+scp /ruta/al/archivo-origen usuario@ordenador:/ruta/al/directorio-destino/
+
+*configurar sshserver
+/etc/ssh/sshd_config
+
+*verificar consultas
+snmpwalk -v 2c -c public 10.40.142.68
+
+realizar un for 
+for ip in $(cat lista.txt); do snmpwalk -v 2c -c public $ip system; done
+
+
+
+app_dev.php 
+frontend_dev.php 
+
+configurar bind dns  
+/etc/bind 
+eliminar procesos Zombies 
+kill $(ps -A -ostat,ppid | awk '/[zZ]/{print $2}') 
+
+Uprgrade de casa 3200 
+copy tftp 190.93.223.179 ccsi.gz.rel7.1.4.0_build49ba flash2 
+
+#dd 
+dd if=Pisi-Linux-Beta-Sueno-x86_64.iso of=/dev/sdb bs=4M
+
+
+--start-at-task="Set executables files"
+
+/Provisioning/dhcp_subnets_report.php
+
+tsdb/q/index.php?m=cm_download&start=now&end=1d-ago&format=json
+
+/var/flowdat/mongotsdb# ln -sf $(pwd)/cfg/apache-debian8.conf /etc/apache2/conf-enabled/
+
+
+
+snmpwalk  -cpublic -v2c 10.43.6.244 1.3.6.1.4.1.4413.2.2.2.1.5.4.1.14.1.3.32
+snmpwalk  -cpublic -v2c 10.43.6.244 1.3.6.1.4.1.4413.2.2.2.1.5.4.2.4.1.2.32
+
+
+
+SMC
+snmpwalk  -cpublic -v2c 10.43.4.197 1.3.6.1.4.1.202.80.1.1.18.9.1.5.1
+
+snmpwalk  -cpublic -v2c 10.43.10.146 1.3.6.1.4.1.202.80.1.1.18.9.1.5.1
+
+
+
+
+Recuperar pendrive 
+Ver usb que corresponda
+sudo fdisk -l
+
+Recuperar archivos 
+foremost -t all -i /dev/sdb -o /carpeta donde volcar los archivos
+
+
+
+Me pide que borre un cm 5039558a38a6 cliente Mesiti 1/2/22
